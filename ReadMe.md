@@ -28,3 +28,8 @@ Dessa forma podemos passar variaveis e até funções para dentro do CSS
 - - Usa % para modificar o tamanho da fs, pois caso o usuario usa uma config para ajustar o tamanho das fonts o percentual faz essa modificação conforme a necessidade.
 - - 1 REM equivale a tamanho do fs da página. Se eu diminuo o tamanho do fs, essa modificação impacta no REM que por sua vez impacta no tamanho dos objetos envolvidos, fazendo com que a aplicação fique mais responsiva.
 
+<br>
+
+Dica: Coloque o código: <link rel="preconnect" href=""> no começo do Index para as fonts serem a primeira coisa a ser carregada, otimizando até 25% o carregamento das mesmas
+
+<br>

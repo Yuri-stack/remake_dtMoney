@@ -34,6 +34,15 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smooth: antialised;    // Para navegadores que usam webkits. Deixa as Fontes mais detalhadas/nítidas
     }
 
+    body, input, textarea, button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    h1, h2, h3, h4, h4, h5, h6, strong{
+        font-weight: 600;
+    }
+
     button{
         cursor: pointer;
     }
