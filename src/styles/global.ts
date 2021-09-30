@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     } 
 
     body{
-        background: var(---background);
+        background: var(--background);
         -webkit-font-smooth: antialised;    // Para navegadores que usam webkits. Deixa as Fontes mais detalhadas/nítidas
     }
 
