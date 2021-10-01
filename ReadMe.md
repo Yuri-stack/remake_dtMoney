@@ -33,3 +33,11 @@ Dessa forma podemos passar variaveis e até funções para dentro do CSS
 Dica: Coloque o código: <link rel="preconnect" href=""> no começo do Index para as fonts serem a primeira coisa a ser carregada, otimizando até 25% o carregamento das mesmas
 
 <br>
+
+MirageJS: Construção de um API Fake simulando um backend
+    * Banco de Dados Integrado
+    * Relacionamentos
+    * Preenchimento com dados ficticios
+
+<br>
+
