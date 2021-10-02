@@ -41,3 +41,10 @@ MirageJS: Construção de um API Fake simulando um backend
 
 <br>
 
+Por que Axios ao invés de Fetch? <br>
+    No Fetch temos que:
+    * colocar a requisição inteira. Ex: http://localhost:3000/api/transactions
+    * transformar a resposta da requisição em JSON
+<br>
+    Axios:
+    * interceptar requisições, caso precisamos mudar info antes do Front pegar
