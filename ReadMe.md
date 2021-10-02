@@ -48,3 +48,6 @@ Por que Axios ao invés de Fetch? <br>
 <br>
     Axios:
     * interceptar requisições, caso precisamos mudar info antes do Front pegar
+<br>
+    Por que começar funções com Handle?
+    É um Pattern que indica que uma função é executada a partir de alguma ação do usuário
