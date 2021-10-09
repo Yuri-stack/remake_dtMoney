@@ -5,6 +5,8 @@ import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import closeImg from '../../assets/close.svg';
 
+import { api } from "../../services/api";
+
 import { Container, RadioBox, TransactionTypeContainer } from "./styles";
 
 interface NewTransactionModalProps{
@@ -13,13 +15,17 @@ interface NewTransactionModalProps{
 }
 
 export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps) {
-    const [type, setType] = useState('deposit')
     const [title, setTitle] = useState('')
     const [value, setValue] = useState(0)
+    const [type, setType] = useState('deposit')
     const [category, setCategory] = useState('')
 
     function handleCreateNewTransaction(event: FormEvent){
         event.preventDefault()
+
+        const data = { title, value, type, category }
+
+        api.post('/transactions', data)
     }
 
     return (
