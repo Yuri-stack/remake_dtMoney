@@ -51,3 +51,6 @@ Por que Axios ao invés de Fetch? <br>
 <br>
     Por que começar funções com Handle?
     É um Pattern que indica que uma função é executada a partir de alguma ação do usuário
+<br>
+    Para que Contextos?
+    Contextos são usados quando você precisa passar informações de um componente para outro, independente da ordem hierarquica deles, de modo que um componente filho, possa passar uma informação para um componente pai ou componentes irmãos
